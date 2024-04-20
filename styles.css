@@ -1,0 +1,44 @@
+/* CSS styles for the Content Protector web app */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set the height of the body to 100% of the viewport height */
+    background-color: #f0f0f0; /* Set background color */
+}
+
+.container {
+    max-width: 500px; /* Set maximum width of container */
+    width: 100%; /* Take up full width */
+    padding: 20px; /* Add padding inside container */
+    box-sizing: border-box; /* Include padding and border in the total width and height of the element */
+    text-align: center; /* Center-align text within container */
+    background-color: #fff; /* Set background color of container */
+    border-radius: 10px; /* Add border radius to container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow to container */
+}
+
+textarea, input, button {
+    margin: 10px 0; /* Add margin above and below each input element */
+    width: 100%; /* Take up full width */
+    padding: 10px; /* Add padding inside each input element */
+    box-sizing: border-box; /* Include padding and border in the total width and height of the element */
+    border: 1px solid #ccc; /* Add border to input elements */
+    border-radius: 5px; /* Add border radius to input elements */
+}
+
+button {
+    background-color: #007bff; /* Set button background color to blue */
+    color: #fff; /* Set text color to white */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius to button */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add transition effect for background color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
